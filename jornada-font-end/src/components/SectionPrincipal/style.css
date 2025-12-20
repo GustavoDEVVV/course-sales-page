@@ -1,0 +1,80 @@
+/* Configurações */
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+  background-color: #0D0D0D;
+}
+
+/* section principal */
+.mainElements{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.mainElements .left .titulo h1{
+  color: #ffffff;
+  font-size: 4rem;
+  font-family: "Michroma", sans-serif;
+}
+
+.mainElements .left .titulo h1 span{
+  color: #481CA6;
+  font-family: "Kristi", cursive;
+  font-weight: 400;
+}
+
+.mainElements .left .descricao{
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  width: 40rem;
+}
+
+.mainElements .left .dataEhora{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.mainElements .left .dataEhora p{
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.mainElements .left .dataEhora img{
+  width: 2rem;
+  height: 2rem;
+}
+
+.mainElements .left .botao{
+  background-color: #481CA6;
+  width: 30rem;
+  border-radius: 1rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainElements .left .botao a{
+  display: inline;
+  width: 30rem;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.mainElements .rigth img{
+  width: 50rem;
+}
